@@ -43,6 +43,6 @@ function displaytext(div_no, status) {
     tr.appendChild(td);
     let message = document.createTextNode("div " +div_no+" is "+ status);
     td.appendChild(message);
-
+    console.log('Div toggled');
 }
 
